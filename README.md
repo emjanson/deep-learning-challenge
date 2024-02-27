@@ -36,7 +36,8 @@ The goal of this analysis was to use a neural network to create a classification
 4. Additional hidden layers were included in the neural network with a greater number of units per layer
 5. Dropout was applied to the neural net layers to help mitigate any model overfitting
 6. A learning rate schedule was implemented to help tune the learning rate for the optimizer during model training
-   When these methods failed to appreciably improve the model, hyperparameter optimization using Hyperband was implemented to find the best combination of hyperparameters to train the model. Optimization parameters included layer activation function, layer number, unit number, and learning rate.
+
+When these methods failed to appreciably improve the model, hyperparameter optimization using Hyperband was implemented to find the best combination of hyperparameters to train the model. Hyperparameters used for the optimization included layer activation function (ReLU, ELU, and tanh), hidden layer numbers (1-3), unit numbers per layer (32-512), and learning rate (0.1-0.0001).
 
 # Summary
 
