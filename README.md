@@ -3,6 +3,8 @@ MSU Data Analytics BootCamp Module 21 Challenge
 
 Notebook/code file names: 'AlphabetSoupCharity_InitialTrainTest.ipynb' and 'AlphabetSoupCharity_Optimization.ipynb' located in the root repository directory
 
+# Title
+
 **Grant Applicant Success Classification - Using A Neural Network to Model Grant Applicant Success Based on Previous Applicant Data**
 
 # Overview and Goal of the Analysis
